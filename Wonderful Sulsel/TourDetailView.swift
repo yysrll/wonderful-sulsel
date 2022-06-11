@@ -34,6 +34,20 @@ struct TourDetailView: View {
                     maxWidth: .infinity,
                     alignment: .leading
                 )
+            Button("Go To Map", action: {
+                print("tap button")
+                let mapUrl = URL(string: "maps://?saddr=&daddr=\(tour.lat),\(tour.lon)")
+                if UIApplication.shared.canOpenURL(mapUrl!) {
+                    UIApplication.shared.open(
+                        mapUrl!
+                    )
+                }
+            })
+            .padding()
+            .background(Color.green)
+            .foregroundColor(.white)
+            .cornerRadius(8)
+            
             Spacer()
         }
         .padding()
