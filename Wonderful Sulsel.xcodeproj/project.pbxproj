@@ -11,6 +11,9 @@
 		CC67BE0F285342B4006EB916 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC67BE0E285342B4006EB916 /* ContentView.swift */; };
 		CC67BE11285342B5006EB916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC67BE10285342B5006EB916 /* Assets.xcassets */; };
 		CC67BE14285342B5006EB916 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC67BE13285342B5006EB916 /* Preview Assets.xcassets */; };
+		CC67CD7328536A3D00C8A63A /* TourModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC67CD7228536A3D00C8A63A /* TourModel.swift */; };
+		CC67CD752853776500C8A63A /* TourRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC67CD742853776500C8A63A /* TourRowView.swift */; };
+		CCE2BBE42853884100739233 /* TourDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE2BBE32853884100739233 /* TourDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		CC67BE0E285342B4006EB916 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CC67BE10285342B5006EB916 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC67BE13285342B5006EB916 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC67CD7228536A3D00C8A63A /* TourModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourModel.swift; sourceTree = "<group>"; };
+		CC67CD742853776500C8A63A /* TourRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourRowView.swift; sourceTree = "<group>"; };
+		CCE2BBE32853884100739233 /* TourDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 				CC67BE0E285342B4006EB916 /* ContentView.swift */,
 				CC67BE10285342B5006EB916 /* Assets.xcassets */,
 				CC67BE12285342B5006EB916 /* Preview Content */,
+				CC67CD7228536A3D00C8A63A /* TourModel.swift */,
+				CC67CD742853776500C8A63A /* TourRowView.swift */,
+				CCE2BBE32853884100739233 /* TourDetailView.swift */,
 			);
 			path = "Wonderful Sulsel";
 			sourceTree = "<group>";
@@ -138,6 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC67BE0F285342B4006EB916 /* ContentView.swift in Sources */,
+				CC67CD752853776500C8A63A /* TourRowView.swift in Sources */,
+				CCE2BBE42853884100739233 /* TourDetailView.swift in Sources */,
+				CC67CD7328536A3D00C8A63A /* TourModel.swift in Sources */,
 				CC67BE0D285342B4006EB916 /* Wonderful_SulselApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

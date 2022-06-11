@@ -8,9 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    var tourData = dummyTourData
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List(tourData, id: \.name) { tour in
+                NavigationLink {
+                    TourDetailView(tour: tour)
+                } label: {
+                    TourRowView(tour: tour)
+                }
+            }
+            .navigationTitle("Destination")
+        }
     }
 }
 
