@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC4DE4B2285479B8009CC237 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4DE4B1285479B8009CC237 /* ProfileView.swift */; };
+		CC4DE4B428547AA4009CC237 /* TourListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4DE4B328547AA4009CC237 /* TourListView.swift */; };
 		CC67BE0D285342B4006EB916 /* Wonderful_SulselApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC67BE0C285342B4006EB916 /* Wonderful_SulselApp.swift */; };
 		CC67BE0F285342B4006EB916 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC67BE0E285342B4006EB916 /* ContentView.swift */; };
 		CC67BE11285342B5006EB916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC67BE10285342B5006EB916 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC4DE4B1285479B8009CC237 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		CC4DE4B328547AA4009CC237 /* TourListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourListView.swift; sourceTree = "<group>"; };
 		CC67BE09285342B4006EB916 /* Wonderful Sulsel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wonderful Sulsel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC67BE0C285342B4006EB916 /* Wonderful_SulselApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wonderful_SulselApp.swift; sourceTree = "<group>"; };
 		CC67BE0E285342B4006EB916 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +42,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC4DE4B02854797A009CC237 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CC67CD742853776500C8A63A /* TourRowView.swift */,
+				CCE2BBE32853884100739233 /* TourDetailView.swift */,
+				CC4DE4B1285479B8009CC237 /* ProfileView.swift */,
+				CC4DE4B328547AA4009CC237 /* TourListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		CC67BE00285342B4006EB916 = {
 			isa = PBXGroup;
 			children = (
@@ -57,13 +72,12 @@
 		CC67BE0B285342B4006EB916 /* Wonderful Sulsel */ = {
 			isa = PBXGroup;
 			children = (
+				CC4DE4B02854797A009CC237 /* Views */,
 				CC67BE0C285342B4006EB916 /* Wonderful_SulselApp.swift */,
 				CC67BE0E285342B4006EB916 /* ContentView.swift */,
 				CC67BE10285342B5006EB916 /* Assets.xcassets */,
 				CC67BE12285342B5006EB916 /* Preview Content */,
 				CC67CD7228536A3D00C8A63A /* TourModel.swift */,
-				CC67CD742853776500C8A63A /* TourRowView.swift */,
-				CCE2BBE32853884100739233 /* TourDetailView.swift */,
 			);
 			path = "Wonderful Sulsel";
 			sourceTree = "<group>";
@@ -146,10 +160,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC4DE4B428547AA4009CC237 /* TourListView.swift in Sources */,
 				CC67BE0F285342B4006EB916 /* ContentView.swift in Sources */,
 				CC67CD752853776500C8A63A /* TourRowView.swift in Sources */,
 				CCE2BBE42853884100739233 /* TourDetailView.swift in Sources */,
 				CC67CD7328536A3D00C8A63A /* TourModel.swift in Sources */,
+				CC4DE4B2285479B8009CC237 /* ProfileView.swift in Sources */,
 				CC67BE0D285342B4006EB916 /* Wonderful_SulselApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

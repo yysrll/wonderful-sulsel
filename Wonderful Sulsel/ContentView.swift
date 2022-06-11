@@ -8,17 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
-    var tourData = dummyTourData
     var body: some View {
-        NavigationView {
-            List(tourData, id: \.name) { tour in
-                NavigationLink {
-                    TourDetailView(tour: tour)
-                } label: {
-                    TourRowView(tour: tour)
+        TabView {
+            TourListView()
+                .tabItem() {
+                    Image(systemName: "paperplane.fill")
+                    Text("Destinations")
                 }
-            }
-            .navigationTitle("Destination")
+            ProfileView()
+                .tabItem() {
+                    Image(systemName: "person.fill")
+                    Text("My Profile")
+                }
         }
     }
 }
