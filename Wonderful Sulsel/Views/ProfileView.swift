@@ -9,7 +9,27 @@ import SwiftUI
 
 struct ProfileView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Image(uiImage: UIImage(named: "yusril")!)
+                .frame(width: 250, height: 250, alignment: .center)
+                .clipShape(Circle())
+                .padding()
+            Text("YUSRIL")
+                .font(.title)
+                .fontWeight(.bold)
+            Text("Final year student")
+                .foregroundColor(.gray)
+            Text("Hasanuddin University")
+                .foregroundColor(.gray)
+            Divider()
+            Text("Big thanks to Dicoding has given the opportunity to learn to make this iOS application")
+                .foregroundColor(.gray)
+        }
+        .padding()
+        .frame(
+            maxHeight: .infinity,
+            alignment: .top
+        )
     }
 }
 
